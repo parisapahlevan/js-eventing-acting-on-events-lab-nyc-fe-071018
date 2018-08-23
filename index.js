@@ -1,4 +1,4 @@
-const elements = document.getElementById("dodger")
+const element = document.getElementById("dodger")
 
 document.addEventListener('keydown', (event)=>{
   console.log(event)
