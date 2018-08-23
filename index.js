@@ -29,5 +29,6 @@ function moveDodgerRight(event) {
   }
 }
 })
+}
     
 }
