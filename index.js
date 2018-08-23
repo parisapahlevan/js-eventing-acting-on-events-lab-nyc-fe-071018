@@ -1,6 +1,6 @@
 const elements = document.getElementById("dodger")
 
-document.addEventlistener('keydown', (event)=>{
+document.addEventListener('keydown', (event)=>{
   console.log(event)
 if(event.which ===37){
 
@@ -17,7 +17,7 @@ if(event.which ===37){
 })
 
 function moveDodgerRight(event) {
-  document.addEventlistener("keydown", (event) => {
+  document.addEventListener("keydown", (event) => {
   if (event.which === 39) {
   let previousRight = element.style.left
   
