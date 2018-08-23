@@ -31,5 +31,5 @@ function moveDodgerRight(event) {
 
 })
 }
-moveDodgerRight()
+document.addEventlistener('DOMContentLoaded', )
     
