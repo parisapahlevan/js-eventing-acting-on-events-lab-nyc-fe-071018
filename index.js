@@ -15,3 +15,19 @@ if(event,which ===37){
   }
 }
 })
+
+function moveDodgerRight(event) {
+  if (event.which === 39) {
+    //"180px"
+  let previousLeft = element.style.left
+  
+  //180
+  let previousRightNumber = parseInt(previousRight.replace("px,"), 10)
+  if (previousRightNumber>0) {
+  let newRightNumber = (previousRightNumber - 15) + "px"
+  element.style.left = newRightNumber
+  }
+}
+})
+    
+}
