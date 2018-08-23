@@ -1,9 +1,10 @@
 const elements = document.getElementById("dodger")
 element.addEventlistener('keydown', (event)=>{
   console.log(event)
-if  (event.which === 37) {
+
   //"180px"
-  let previousLeft = elementevent.style.left 
+  let previousLeft = elementevent.style.left
+  
   //180
   let previousLeftNumber = parseInt(previousLeft.replace("px,"), 10)
   let newLeftNumber = (previousLeftNumber-1) + "px"
