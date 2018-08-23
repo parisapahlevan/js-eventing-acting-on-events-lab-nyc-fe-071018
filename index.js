@@ -1,2 +1,7 @@
 const elements = document.getElementById("dodger")
-element.addEventlistener('keydown')
+element.addEventlistener('keydown', (event)=>{
+  console.log(event)
+if  (event.which) {
+  
+}
+})
